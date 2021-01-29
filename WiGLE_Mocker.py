@@ -73,7 +73,7 @@ for read_row in reader:
     write_row["AuthMode"]       = "[WPS]"
     write_row["FirstSeen"]      = ""
     write_row["Channel"]        = ""
-    write_row["RSSI"]           = "-1"
+    write_row["RSSI"]           = "-999"
     write_row["AltitudeMeters"] = ""
     write_row["AccuracyMeters"] = ""
     write_row["Type"]           = "WIFI"
